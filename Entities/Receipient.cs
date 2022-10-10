@@ -9,8 +9,8 @@ namespace Hughmail.Api.Entities
     {
         public int Id { get; set; }
 
-        public int EmailId { get; set; }
+        public int? HeaderStatus { get; set; }
 
-        public string? HeaderStatus { get; set; }
+        public string? ReceipientEmailAddress { get; set; }
     }
 }

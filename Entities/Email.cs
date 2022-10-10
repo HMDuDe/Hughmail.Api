@@ -20,5 +20,7 @@ namespace Hughmail.Api.Entities
         public DateTime CreatedOn { get; set; }
 
         public bool IsDeleted { get; set; }
+
+        public ICollection<Receipient> Receipients { get; set; }
     }
 }

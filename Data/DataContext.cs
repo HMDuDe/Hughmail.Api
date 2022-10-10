@@ -14,5 +14,11 @@ namespace Hughmail.Api.Data
         }
 
         public DbSet<Email> Emails { get; set; }
+
+        public DbSet<AppUser> Users { get; set; }
+
+        public DbSet<Label> Labels { get; set; }
+
+        public DbSet<Receipient> Receipients { get; set; }
     }
 }
